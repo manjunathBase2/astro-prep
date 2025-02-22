@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title | default: site.title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; }
+        nav { margin-bottom: 20px; }
+        nav a { margin-right: 10px; text-decoration: none; color: #0077cc; }
+    </style>
 </head>
 <body>
-  <header>
-    {% include header.html %}
-  </header>
-
-  <main>
-    {{ content }}
-  </main>
-
-  <footer>
-    {% include footer.html %}
-  </footer>
+    <nav>
+        <a href="{{ '/' | relative_url }}">Home</a>
+    </nav>
+    <h1>{{ page.title }}</h1>
+    <div>
+        {{ content }}
+    </div>
 </body>
 </html>
