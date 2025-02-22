@@ -1,28 +1,35 @@
-title: "My DSA Notes"
-description: "A minimalist site generated from Obsidian notes"
-baseurl: "" # Change if using a project page like "/dsa-notes"
-url: "https://manjunathbase2.github.io/astro-prep" # Replace with your GitHub Pages URL
+title: "DSA Notes"
+description: "A collection of my Data Structures and Algorithms notes"
+baseurl: "" # Leave empty if hosted on GitHub Pages with a custom domain
+url: "https://manjunathbase2.github.io/astro-prep" # Update with your GitHub Pages URL
+theme: minima # Default theme, or replace with another Jekyll theme
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
-# Enable Jekyll Collections (Obsidian folders)
+# Exclude non-content files/folders from the build process
+exclude:
+  - README.md
+  - .gitignore
+
+# Navigation menu (optional)
 collections:
   fundamentals:
     output: true
-    permalink: /01-Fundamentals/:path/
-  datastructures:
+    permalink: /fundamentals/:path/
+  data_structures:
     output: true
-    permalink: /02-DataStructures/:path/
+    permalink: /data_structures/:path/
   algorithms:
     output: true
     permalink: /algorithms/:path/
-  misc:
-    output: true
-    permalink: /misc/:path/
-  resources:
-    output: true
-    permalink: /resources/:path/
 
-# Markdown Engine
-markdown: kramdown
+# Plugins (optional, add if needed)
+plugins:
+  - jekyll-feed # For RSS feed generation
+  - jekyll-seo-tag # For SEO optimization
 
-# GitHub Pages Theme (Optional)
-theme: minima
+# Optional pagination settings
+paginate: 5
+paginate_path: "/page:num/"
