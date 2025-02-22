@@ -2,8 +2,16 @@
 .obsidian/workspace*
 .obsidian/cache
 .obsidian/plugins/*
-!.obsidian/plugins/minimal-theme/
-!.obsidian/plugins/obsidian-git/
+.obsidian/plugins/minimal-theme/
+.obsidian/plugins/obsidian-git/
+.obsidian/*
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/config
+.obsidian/community-plugins.json
+.obsidian/core-plugins.json
+.obsidian/graph.json
+.obsidian/hotkeys.json
 .trash/
 .DS_Store
 
@@ -20,12 +28,3 @@
 # Exclude mobile app specific files
 mobile.sync.log
 
-
-.obsidian/*
-!.obsidian/app.json
-!.obsidian/appearance.json
-!.obsidian/config
-!.obsidian/community-plugins.json
-!.obsidian/core-plugins.json
-!.obsidian/graph.json
-!.obsidian/hotkeys.json
