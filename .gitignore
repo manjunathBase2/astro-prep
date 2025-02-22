@@ -1,0 +1,31 @@
+# Obsidian internal files
+.obsidian/workspace*
+.obsidian/cache
+.obsidian/plugins/*
+!.obsidian/plugins/minimal-theme/
+!.obsidian/plugins/obsidian-git/
+.trash/
+.DS_Store
+
+# Temporary files
+.tmp.drivedownload/
+.tmp.driveupload/
+
+# Plugin-specific files
+.hot-reload.json
+
+# Exclude workspace cache files
+*.workspace
+
+# Exclude mobile app specific files
+mobile.sync.log
+
+
+.obsidian/*
+!.obsidian/app.json
+!.obsidian/appearance.json
+!.obsidian/config
+!.obsidian/community-plugins.json
+!.obsidian/core-plugins.json
+!.obsidian/graph.json
+!.obsidian/hotkeys.json
