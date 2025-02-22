@@ -3,8 +3,8 @@
 
 00-MetaInfo/ 
 	-\_templates/
-		- problem_template.md
-		-
+		- problem-template.md
+		- topic-template.md
 
 01-Fundamentals
 	
