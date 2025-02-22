@@ -1,8 +1,13 @@
 ---
-layout: home
-title: "Home"
+layout: default
+title: Home
 ---
 
 # Welcome to My DSA Notes
 
-Here you can explore all my concept notes and code snippets.
+Explore my notes:
+
+- [Fundamentals](/01-Fundamentals/)
+- [Data Structures](/02-DataStructures/)
+- [Algorithms](/03-Algorithms/)
+- [Miscellaneous](/04-Misc/)
