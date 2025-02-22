@@ -13,4 +13,4 @@ My DSA study notes organized in Obsidian MD, synced with GitHub repo for easy ac
   
 ## Knowledge Graph
 
-![DSA Knowledge Graph](/04-Misc/zassets/a.png)
+![DSA Knowledge Graph|450](/04-Misc/zassets/a.png)
