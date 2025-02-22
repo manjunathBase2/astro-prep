@@ -2,9 +2,9 @@
 ## Folders
 
 00-MetaInfo/ 
-	- \_templates/
+	-\_templates/
 		- problem_template.md
-		- topic_template.md
+		-
 
 01-Fundamentals
 	
