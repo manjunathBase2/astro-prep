@@ -1,12 +1,10 @@
 title: DSA Study Notes
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
-# Enable automatic navigation for subfolders
 just_the_docs:
   collections:
     docs:
       name: "Notes"
       nav_order: 1
 
-# Base URL (if using custom domain, change accordingly)
 baseurl: "/astro-prep"
