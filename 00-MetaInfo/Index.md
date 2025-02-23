@@ -1,4 +1,3 @@
-# Data Structures & Algorithms Study Guide
 
 ## Navigation
 - [Fundamentals](#fundamentals)
