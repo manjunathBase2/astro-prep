@@ -1,10 +1,32 @@
 title: DSA Study Notes
 remote_theme: just-the-docs/just-the-docs
 
-just_the_docs:
-  collections:
-    docs:
-      name: "Notes"
-      nav_order: 1
+# Define the order of sections in the sidebar
+nav_order: 1
+
+# Enable collections for subfolders
+collections:
+  docs:
+    name: "Notes"
+    nav_order: 1
+    output: true
+
+# Define navigation structure explicitly
+nav:
+  - title: "DSA Study Notes"
+    url: /
+    nav_order: 1
+  - title: "01-Fundamentals"
+    url: /01-Fundamentals/
+    nav_order: 2
+  - title: "02-Data Structures"
+    url: /02-Data-Structures/
+    nav_order: 3
+  - title: "03-Algorithms"
+    url: /03-Algorithms/
+    nav_order: 4
+  - title: "Appendix"
+    url: /Appendix/
+    nav_order: 5
 
 baseurl: "/astro-prep"
