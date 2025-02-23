@@ -1,1 +1,12 @@
-remote_theme: alexander-heimbuch/jekyll-theme-directory
+title: DSA Study Notes
+theme: just-the-docs
+
+# Enable automatic navigation for subfolders
+just_the_docs:
+  collections:
+    docs:
+      name: "Notes"
+      nav_order: 1
+
+# Base URL (if using custom domain, change accordingly)
+baseurl: "/astro-prep"
