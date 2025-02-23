@@ -16,14 +16,14 @@
 - [LeetCode Problems](../02-DataStructures/Arrays/LC-XX.md)
 
 ### Linked Lists
-- [Sample Problems](../02-DataStructures/Linked%20Lists/Sample.md)
+- [Sample Problems](../02-DataStructures/Linked-Lists/Sample.md)
 
 ## Algorithms
 ### Sorting
-- [Bubble Sort](../03-Algorithms/Sorting/Bubble%20Sort.md)
+- [Bubble Sort](../03-Algorithms/Sorting/Bubble-Sort.md)
 
 ### Searching
-- [Binary Search](../03-Algorithms/Searching/Binary%20Search.md)
+- [Binary Search](../03-Algorithms/Searching/Binary-Search.md)
 
 ## Study Tips
 1. Start with fundamental concepts
