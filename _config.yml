@@ -2,7 +2,7 @@ title: DSA Study Notes
 remote_theme: just-the-docs/just-the-docs
 
 # Define the order of sections in the sidebar
-nav_order: 1
+# nav_order: 1
 
 # Enable collections for subfolders
 collections:
@@ -48,5 +48,6 @@ collections:
 #   - title: "Appendix"
 #     url: /Appendix/
 #     nav_order: 5
-
+just_the_docs:
+  show_toc: false
 baseurl: "/astro-prep"
