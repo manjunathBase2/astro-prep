@@ -6,8 +6,8 @@ nav_order: 1
 
 # Enable collections for subfolders
 collections:
-  docs:
-    name: "Notes"
+  00-MetaInfo:
+    name: "00-Meta Info"
     nav_order: 1
     output: true
   01-Fundamentals:
