@@ -1,8 +1,3 @@
----
-layout: default
-title: Linked List Problems
----
-
 # Linked List Problems
 
 ## Problem Statement
