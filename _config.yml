@@ -48,6 +48,5 @@ collections:
 #   - title: "Appendix"
 #     url: /Appendix/
 #     nav_order: 5
-just_the_docs:
-  show_toc: false
+nav_enabled: false
 baseurl: "/astro-prep"
