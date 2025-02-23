@@ -4,6 +4,27 @@ remote_theme: just-the-docs/just-the-docs
 # Define the order of sections in the sidebar
 # nav_order: 1
 
+# Define navigation structure explicitly
+nav:
+  - title: "00-Meta Info"
+    url: /00-MetaInfo/
+    nav_order: 1
+  - title: "01-Fundamentals"
+    url: /01-Fundamentals/
+    nav_order: 2
+  - title: "02-Data Structures"
+    url: /02-Data-Structures/
+    nav_order: 3
+  - title: "03-Algorithms"
+    url: /03-Algorithms/
+    nav_order: 4
+  - title: "04-Misc"
+    url: /04-Misc/
+    nav_order: 5
+  - title: "05-Resources"
+    url: /05-Resources/
+    nav_order: 6
+
 # Enable collections for subfolders
 collections:
   00-MetaInfo:
