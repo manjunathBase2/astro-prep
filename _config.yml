@@ -1,21 +1,16 @@
 title: DSA Study Notes
 remote_theme: just-the-docs/just-the-docs
 
-
-# Enable hierarchical navigation automatically
-collections:
-  01-Fundatmentals:
-    output: true
-    permalink: pretty
-
 # Enable automatic navigation without needing front matter
 just_the_docs:
   collections:
     notes:
       name: "DSA Notes"
       output: true
+      permalink: pretty
+      nav_sort: case_sensitive
   # Sort pages by folders
-  nav_sort: "folder"
+  nav_sort: case_sensitive
   collapse_sections: true  # Collapses sections for better navigation
   permalink: pretty
   toc_min_headings: 2  # Minimum number of headings to show in TOC
