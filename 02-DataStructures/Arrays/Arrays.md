@@ -4,20 +4,23 @@ Arrays are one of the most fundamental data structures, providing a simple way t
 
 ## Key Concepts
 
-- **Contiguous Memory Allocation:**  
-  Elements are stored in consecutive memory locations, enabling quick, direct access.
-  
+- **Contiguous Memory Allocation
 - **Fixed Size vs. Dynamic Arrays:**  
   - **Fixed Size Arrays:** Have a predetermined size; common in low-level programming languages.
   - **Dynamic Arrays:** Can resize during runtime; examples include Python lists and JavaScript arrays.
   
-- **Indexing:**  
-  Use zero-based indexing to access elements directly with O(1) time complexity.
+  ![[Pasted image 20250301161741.png|500]]
 
 - **Efficiency Considerations:**
   - **Access:** O(1)
   - **Search:** O(n) in unsorted arrays.
   - **Insertion/Deletion:** O(n) in the worst case due to subsequent element shifts.
+
+- Subarray - A range of contiguous values within an array.
+    - Example: given an array `[2, 3, 6, 1, 5, 4]`, `[3, 6, 1]` is a subarray while `[3, 1, 5]` is not a subarray.
+
+- Subsequence - A sequence that can be derived from the given sequence by deleting some or no elements without changing the order of the remaining elements.
+    - Example: given an array `[2, 3, 6, 1, 5, 4]`, `[3, 1, 5]` is a subsequence but `[3, 5, 1]` is not a subsequence.
 
 ## Common Operations
 
@@ -59,15 +62,17 @@ def reverse_array(arr):
 ## Practical Considerations
 
 - **Memory Efficiency:**  
-  Arrays use contiguous memory, which is efficient for caching but may lead to issues with resizing in fixed-size arrays.
+	  Arrays use contiguous memory, which is efficient for caching but may lead to issues with resizing in fixed-size arrays.
+
+- When using an index to iterate through array elements, be careful not to go out of bounds.
 
 - **Use Cases:**  
-  - Storing ordered collections.
-  - Scenarios where fast access by index is required.
-  - Implementing foundational structures like heaps and queues.
+	  -  Storing ordered collections.
+	  -  Scenarios where fast access by index is required.
+	  -  Implementing foundational structures like heaps and queues.
 
 - **Trade-offs:**  
-  While arrays offer fast lookups, insertion and deletion operations might require shifting elements, which can be costly in terms of performance.
+	  While arrays offer fast lookups, insertion and deletion operations might require shifting elements, which can be costly in terms of performance.
 
 ---
 
