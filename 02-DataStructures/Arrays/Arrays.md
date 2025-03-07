@@ -75,5 +75,6 @@ def reverse_array(arr):
 	  While arrays offer fast lookups, insertion and deletion operations might require shifting elements, which can be costly in terms of performance.
 
 ---
+Parent: [[Algorithms]]
 
 *Last Updated: February 23, 2025*
