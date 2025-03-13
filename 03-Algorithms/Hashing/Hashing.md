@@ -26,5 +26,15 @@ int index_c = 'c' - 'a'  // 99-97 = 2  points to c
 ![[Pasted image 20250308112020.png|500]]
 #### Hash maps 
 
-Time complexity : 
-	Map - log n
+**Time complexity :** 
+	Map - log n (for both storing & fetching)
+	Unordered Map:
+		- O(1) ---- best, avg
+		- O(N) ---- worst case (due to collision if every elements when to the same hash place (rare)) 
+
+
+### Collision
+
+![[Pasted image 20250310093651.png|400]]
+
+- sorted order chaining done on collisions
