@@ -71,3 +71,6 @@ int main() {
 - It is a stable sort, meaning that it maintains the relative order of equal elements.
 - The use of auxiliary arrays (and optionally sentinel values) simplifies the merge process but does require additional space.
 
+
+
+Parent topics : [[Sorting Algorithms]]

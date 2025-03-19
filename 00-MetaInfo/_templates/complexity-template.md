@@ -3,10 +3,10 @@
 
 | Complexity           | Value |
 | -------------------- | ----- |
-| **Best Case**        |       |
-| **Average Case**     |       |
-| **Worst Case**       |       |
-| **Space Complexity** |       |
+| **Best Case**        | $O()$ |
+| **Average Case**     | $O()$ |
+| **Worst Case**       | $O()$ |
+| **Space Complexity** | $O()$ |
 | **Stability**        |       |
 | **Method**           |       |
 

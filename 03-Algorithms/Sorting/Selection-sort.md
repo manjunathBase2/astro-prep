@@ -56,13 +56,4 @@ for i = 1 to n - 1
 
 
 
-
-
-
-
-
-
-
-
-
 Parent topics : [[Sorting Algorithms]]
