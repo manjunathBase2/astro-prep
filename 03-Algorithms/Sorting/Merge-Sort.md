@@ -2,7 +2,7 @@
 
 ![[Pasted image 20250317092530.png|400]]  
 
-
+	
 ```cpp
 #include <iostream>
 using namespace std;
@@ -57,20 +57,6 @@ int main() {
 
 ---
 
-| Complexity           | Value            |
-| -------------------- | ---------------- |
-| **Best Case**        | O(n logn)        |
-| **Average Case**     | O(n logn)        |
-| **Worst Case**       | O(n logn)        |
-| **Space Complexity** | O(n)             |
-| **Stability**        | Stable           |
-| **Method**           | Divide & Conquer |
-
-#### Additional
-- Merge Sort is highly efficient for large datasets and guarantees O(n log n) time complexity in all cases.
-- It is a stable sort, meaning that it maintains the relative order of equal elements.
-- The use of auxiliary arrays (and optionally sentinel values) simplifies the merge process but does require additional space.
-
-
+![[Pasted image 20250322102707.png|500]]
 
 Parent topics : [[Sorting Algorithms]]
