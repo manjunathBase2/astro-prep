@@ -35,6 +35,8 @@ int getLongestSubarray(vector<int>& a, long long k) {
 ---
 ### Optimal 1
 
+![[Pasted image 20250409103030.png|555]]
+
 
 ```cpp
 
